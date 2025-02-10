@@ -16,3 +16,7 @@
 
   **[Ссылка на файл с ДЗ](https://docs.google.com/document/d/1BkzbYkgBp2TUBNdkJVTv7GCOBu-hTcHOM67HO-02NP0/edit?usp=sharing)**
 
+- ### Перехват и изменение трафика
+
+  **[Ссылка на файл с ДЗ](https://docs.google.com/document/d/1_HEVHh_1DVt__9PgT765Tq26EH-pFedQSm2aK3OSNcQ/edit?usp=sharing)**
+
