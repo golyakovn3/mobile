@@ -1,22 +1,21 @@
 # Тестирование мобильных приложений
 
-- ### Домашнее задание №1 - Чек-лист и тест-кейсы для тестирования мобильного приложения
+## В рамках задания по данному модулю необходимо было:
 
-  **[Ссылка на файл с ДЗ](https://docs.google.com/spreadsheets/d/1lIb82pKj81nbhcR6gG_48S5kP19T1bMGg0voy6_La_4/edit?usp=sharing)**
+1. Написать чек-лист для тестирования приложения “shopping-list”. “shopping-list” - это мобильное приложение для ведения списка задач, позволяющее добавлять задачи, редактировать задачи, отмечать задачи как выполненные, удалять задачи и сохранять задачи. Чек-лист должен содержать как проверки основных функциональных возможностей приложения, так и общие проверки для мобильных приложений
+2. На основании чек-листа написать тест-кейсы для тестирования приложения “shopping-list”
+3. Выполнить тестовый прогон написанных тест-кейсов
+4. Составить отчеты о дефектах, выявленных в ходе выполнения проверок из чек-листа и тестового прогона тест-кейсов
+5. Исходя из результатов тестирования, составить отчет по результатам тестирования приложения “shopping-list” используя данные, которые были получены в рамках проведенного тестирования
+6. Выполнить перехват и изменение трафика с помощью Charles Proxy как для настольного, так и для мобильного браузера при работе с ["Интернет-магазином"](https://qa.demoshopping.ru/)
 
-  **[Ссылка на тестовый набор в системе Qase](https://app.qase.io/project/G9?suite=337)**
-
-  **[Ссылка на файл с тест-кейсами из системы Qase, экспортированными в формате PDF](https://github.com/golyakovn3/mobile/blob/main/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.pdf)**
-
-- ### Домашнее задание №2 - Отчеты о дефектах для тестирования мобильного приложения и отчет по результатам тестирования
-
-  **[Ссылка на файл с результатами тестового прогона из системы Qase, экспортированными в формате PDF](https://github.com/golyakovn3/mobile/blob/main/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B%20%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0.pdf)**
-
-  **[Ссылка на файл с отчетами о дефектах из системы YouTrack, экспортированными в формате XLSX](https://github.com/golyakovn3/mobile/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%8B%20%D0%BE%20%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D0%B0%D1%85.xlsx)**
-
-  **[Ссылка на файл с ДЗ](https://docs.google.com/document/d/1BkzbYkgBp2TUBNdkJVTv7GCOBu-hTcHOM67HO-02NP0/edit?usp=sharing)**
-
-- ### Перехват и изменение трафика
-
-  **[Ссылка на файл с ДЗ](https://docs.google.com/document/d/1_HEVHh_1DVt__9PgT765Tq26EH-pFedQSm2aK3OSNcQ/edit?usp=sharing)**
+## Решение
+1. Чек-лист для тестирования приложения “shopping-list” - [ссылка](https://docs.google.com/spreadsheets/d/1lIb82pKj81nbhcR6gG_48S5kP19T1bMGg0voy6_La_4/edit?usp=sharing)
+2. Файл с тест-кейсами из системы Qase, экспортированными в формате PDF - [ссылка](https://github.com/golyakovn3/mobile/blob/main/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.pdf)
+3. Файл с результатами тестового прогона из системы Qase, экспортированными в формате PDF - [ссылка](https://github.com/golyakovn3/mobile/blob/main/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B%20%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0.pdf)
+4. Файл с отчетами о дефектах из системы YouTrack, экспортированными в формате XLSX - [ссылка](https://github.com/golyakovn3/mobile/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82%D1%8B%20%D0%BE%20%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D0%B0%D1%85.xlsx)
+5. Отчет по результатам тестирования приложения “shopping-list” - [ссылка](https://docs.google.com/document/d/1BkzbYkgBp2TUBNdkJVTv7GCOBu-hTcHOM67HO-02NP0/edit?usp=sharing)
+6. Перехват и изменение трафика:
+   * Для настольного браузера - [ссылка](https://docs.google.com/document/d/1bUpfucG1uuSe8Q859fBbZ3hPiKsRPpIHUXp8Q7674a8/edit?usp=sharing)
+   * Для мобильного браузера - [ссылка](https://docs.google.com/document/d/1_HEVHh_1DVt__9PgT765Tq26EH-pFedQSm2aK3OSNcQ/edit?usp=sharing)
 
